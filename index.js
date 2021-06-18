@@ -136,7 +136,7 @@ class Airplane {
           + `grade` receives a `student` object and a `subject` string as arguments and returns '{student.name} receives a perfect score on {subject}'
   */
 
-          
+
   class Instructor extends Lambdasian {
     constructor(attribute){
       super(attribute);
@@ -151,6 +151,7 @@ class Airplane {
       return `${student} receives a perfect score on ${subject}`;
     }
   }
+  
 
 
   /*
