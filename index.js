@@ -151,7 +151,8 @@ class Airplane {
       return `${student} receives a perfect score on ${subject}`;
     }
   }
-  
+
+  // const example = new Instructor()
 
 
   /*
@@ -169,7 +170,13 @@ class Airplane {
           + `PRAssignment` a method that receives a subject as an argument and returns `student.name has submitted a PR for {subject}`
           + `sprintChallenge` similar to PRAssignment but returns `student.name has begun sprint challenge on {subject}`
   */
- class Student {
+  class Student extends Lambdasian{
+    constructor(attribute){
+      super(attribute);
+      this.previousBackground = attribute.previousBackground;
+      this.className = attribute.className;
+      this.favSubjects = attribute.favSubjects;
+   }
      
  }
   
